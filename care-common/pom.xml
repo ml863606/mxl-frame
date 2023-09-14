@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.mxl</groupId>
+        <artifactId>care-frame</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>care-common-bom</module>
+        <module>care-common-alibaba-bom</module>
+        <module>care-common-log</module>
+        <module>care-common-excel</module>
+        <module>care-common-core</module>
+        <module>care-common-redis</module>
+        <module>care-common-doc</module>
+        <module>care-common-security</module>
+        <module>care-common-satoken</module>
+        <module>care-common-web</module>
+        <module>care-common-mybatis</module>
+        <module>care-common-dubbo</module>
+        <module>care-common-oss</module>
+        <module>care-common-sms</module>
+        <module>care-common-json</module>
+    </modules>
+
+    <artifactId>care-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        care-common通用模块封装
+    </description>
+
+</project>
