@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mxl</groupId>
+    <artifactId>care-common-bom</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <description>
+        care-common-bom common依赖项
+    </description>
+
+    <properties>
+        <revision>2.1.0-SNAPSHOT</revision>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-core</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 接口模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-doc</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-satoken</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 日志记录 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-log</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 字典 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-dict</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- excel -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-excel</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- web服务 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 数据库服务 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-job</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-dubbo</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-seata</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-loadbalancer</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-oss</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-idempotent</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-mail</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-logstash</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-elasticsearch</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-sentinel</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-skylog</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-prometheus</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-translation</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 脱敏模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-sensitive</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 序列化模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-json</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-encrypt</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 租户模块 -->
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-tenant</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mxl</groupId>
+                <artifactId>care-common-social</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+</project>
